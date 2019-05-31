@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="js.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+               <li id="nav" style="float: left"><a href="landing.html"><img id="KeaLogo" src="images/KEA_logo_EN_Web-no-text.jpg" alt="logo"></a></li>
+                <li id="nav"><a><img onclick="openNav()" id="menu" src="images/menu-4-64.png"></a></li>
+                <li id="nav"><a><img id="notif" src="images/notifications_white_54x54.png" alt="notifications"></a></li>
+                <li id="nav"><a><img id="message" src="images/message-2-64.png" alt="message"></a></li>
+            </ul>
+        </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Today</a>
+                <a href="#">Student Info</a>
+                <a href="#">Student Lounge</a>
+                <a href="#">My Semester</a>
+                <a href="#">Semesters</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="#">Portfolio</a>
+            </div>
+        </div>
+    </header>
+    <div id="TheBody">
+        <h3>Contacts</h3>
+
+        <input id="search" onkeyup="Filter()" type="text" placeholder="Search">
+        <h5 id="Group">Create group chat</h5>
+
+        <ul id="list">
+            <li id="contact"><a href="chat.html" id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a>
+                <a href="Martin-Jensen.html"><img id="profilePic" src="round/1.png">
+                    <p>Martin Jensen</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/2.png">
+                    <p>Rebecca Morris</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/3.png">
+                    <p>Stephen Bloom</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/4.png">
+                    <p>Natasha Alexandrov</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/5.png">
+                    <p>Gunnar Heimisson</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/6.png">
+                    <p>Maria Key-Hamilton</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/7.png">
+                    <p>Naomi Janney</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/8.png">
+                    <p>Allison Parker</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/9.png">
+                    <p>Leigh Hodges</p>
+                </a></li>
+            <li id="contact"><a id="msgIcon" style="float: right"><img id="sndmsg" src="images/message-2-64-blackl.png" alt="message"></a><a href="#news"><img id="profilePic" src="round/10.png">
+                    <p>Mateusz Stark</p>
+                </a></li>
+
+        </ul>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiMedia Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="js.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+                <li id="nav" style="float: left"><a href="landing.html"><img id="KeaLogo" src="images/KEA_logo_EN_Web-no-text.jpg" alt="logo"></a></li>
+                <li id="nav"><a><img onclick="openNav()" id="menu" src="images/menu-4-64.png"></a></li>
+                <li id="nav"><a><img id="notif" src="images/notifications_white_54x54.png" alt="notifications"></a></li>
+                <li id="nav"><a><img id="message" src="images/message-2-64.png" alt="message"></a></li>
+            </ul>
+        </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Today</a>
+                <a href="#">Student Info</a>
+                <a href="#">Student Lounge</a>
+                <a href="#">My Semester</a>
+                <a href="#">Semesters</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="#">Portfolio</a>
+            </div>
+        </div>
+    </header>
+    <div id="TheBody">
+        <img id="semester" src="Semester.svg" alt="semester">
+        <div id="griding">
+            <div id="Messages">
+                <h3>Messages</h3>
+                <div id="posts">
+                    <div id="post">
+                        <p>
+                            Group creation happening Tuesday morning!<br>
+
+                            Dear all,<br>
+
+                            The groups for the Basic UX first<span id="dots1">...</span><span id="more1"> Sprint project will be created tomorrow morning:<br>
+
+                                Tuesday, 14 May from 8:30 to 9:15<br>
+
+                                Groups are created in three steps:<br>
+
+                                Group creation test tool introduced (by teacher)<br>
+                                Group creation test (individually, so be present)<br><br>
+                                Groups created based on test (by teacher,)<br><br>
+
+                                See you there! ;)<br>
+
+                                /Your Basic UX teachers<br>
+
+                                Kenny Marek Møller, 2019-05-13</span>
+                        </p>
+                        <h5 onclick="myFunction()" id="Btn1">Read more</h5>
+                    </div>
+                    <div id="post">
+                        <p>
+                            Dear students<br>
+
+                            Please bring "Usability - Test methods for making usable websites" with you in<span id="dots2">...</span><span id="more2"> class tomorrow (Tuesday).<br>
+
+                                You will be working with testing your XD prototype all day.<br>
+
+                                Jonas Haxø, 2019-05-06</span>
+                        </p>
+                        <h5 onclick="myFunction1()" id="Btn2">Read more</h5>
+                    </div>
+                    <div id="post">
+                        <p>
+                            Hi everybody. I have made an overview (in time) off the content of Jonas' video. This might be useful for the<span id="dots3">...</span><span id="more3"> different processes you need to se again.<br><br>
+
+                                Place graphic and prepare test<br>
+
+                                00.00 - 04.20<br>
+                                Import sketch and crop it.<br><br>
+
+                                04.20 - 06.10<br>
+                                Place graphic on layers. Name layers<br>
+                                Groups in layers<br><br>
+
+                                06.10 - 12.25<br>
+                                Copy file to new document<br>
+                                Prepare document for flash test animation<br>
+                                Export to .swf and make test of animation<br><br>
+
+                                12.25-14.00<br>
+                                Esport to flash (swf) format<br><br>
+
+                                14.00 - 15.43<br>
+                                Corrections to animation, adding more frames.<br>
+                                Export and test new animation<br>
+                                Spritesheet<br><br>
+
+                                15.43 - 19.00<br>
+                                Creating new document to sprite<br>
+                                Save a copy<br>
+                                Count frames and costumize artboard to spitesheet<br><br>
+
+                                19.00 - 20.45<br>
+                                Distribute frames on artboard<br><br>
+
+                                20.45 - 23.15<br>
+                                Export as png (transparent background)<br><br>
+
+                                Birgitte Heide, 2019-03-21</span>
+                        </p>
+                        <h5 onclick="myFunction2()" id="Btn3">Read more</h5>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="documents">
+                <h3>Documents</h3>
+                <div id="upload">
+                    <p><b>HTML_form.png</b><br>
+                        <sub>Alan Engelhardt, 2019-05-22</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>CSS_animated_form.png</b><br>
+                        <sub>Alan Engelhardt, 2019-05-22</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>KEA_designmanual_OKT18.en.pdf</b><br>
+                        <sub>Jonas Haxø, 2019-05-22</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>slides Web Form Design.pdf</b><br>
+                        <sub>Alan Engelhardt, 2019-05-21
+                        </sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>04.02.01_1SEM-INT_Task-Description_Web-prototype.pdf</b><br>
+                        <sub>Alan Engelhardt, 2019-05-21</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>Alan Engelhardt, 2019-05-21</b><br>
+                        <sub>Kenny Marek Møller, 2019-05-20</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>Design Sprint_day 4 _PROTOTYPE_ MMD_Int_spring2019.pdf</b><br>
+                        <sub>Ida Winberg Hemmingsen, 2019-05-20</sub></p>
+                </div>
+                <div id="upload">
+                    <p><b>Design Sprint_day 2_SKETCH_MMD_Int_Spring2019.pdf</b><br>
+                        <sub>Ida Winberg Hemmingsen, 2019-05-20
+                            S </sub></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
