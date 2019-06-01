@@ -21,12 +21,10 @@ img {
 }
 
 #keaLogo {
-    grid-area: "logo";
     max-height: 100%;
 }
 
 #text {
-    grid-area: "text";
     max-height: 100%;
     padding-bottom: 0;
 }
@@ -60,8 +58,6 @@ fieldset {
 }
 
 #Loginbt {
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
     border-radius: 50px;
     padding: .5em;
     font-size: 1.5em;
@@ -76,14 +72,12 @@ fieldset {
 
 input[type=email],
 input[type=password] {
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
     border-radius: 50px;
     border: none;
     padding: 1em;
 }
 
-#remember{
+#rememberr{
     opacity: 0;
     animation: appear 1s .9s forwards;
 }
@@ -165,8 +159,6 @@ input[type=password] {
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "logo text";
     }
 
     img {
